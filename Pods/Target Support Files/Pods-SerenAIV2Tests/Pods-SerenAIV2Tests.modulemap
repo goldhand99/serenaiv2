@@ -1,0 +1,6 @@
+framework module Pods_SerenAIV2Tests {
+  umbrella header "Pods-SerenAIV2Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

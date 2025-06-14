@@ -1,0 +1,1014 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04067F9E2DDB7921001E20D3 /* Colours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04067F9C2DDB7921001E20D3 /* Colours.swift */; };
+		04067F9F2DDB7921001E20D3 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04067F9D2DDB7921001E20D3 /* Fonts.swift */; };
+		040CD6652DB05153008908B9 /* EntryFeedPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CD6642DB05153008908B9 /* EntryFeedPageView.swift */; };
+		040CD6672DB0515E008908B9 /* FeedPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CD6662DB0515E008908B9 /* FeedPageView.swift */; };
+		042FF6702DA05FC800FE7E14 /* SerenAIV2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042FF66F2DA05FC800FE7E14 /* SerenAIV2App.swift */; };
+		042FF6722DA05FC800FE7E14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042FF6712DA05FC800FE7E14 /* ContentView.swift */; };
+		042FF6742DA05FCB00FE7E14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042FF6732DA05FCB00FE7E14 /* Assets.xcassets */; };
+		042FF6782DA05FCB00FE7E14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042FF6772DA05FCB00FE7E14 /* Preview Assets.xcassets */; };
+		042FF6822DA05FCB00FE7E14 /* SerenAIV2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042FF6812DA05FCB00FE7E14 /* SerenAIV2Tests.swift */; };
+		042FF68C2DA05FCB00FE7E14 /* SerenAIV2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042FF68B2DA05FCB00FE7E14 /* SerenAIV2UITests.swift */; };
+		042FF68E2DA05FCB00FE7E14 /* SerenAIV2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042FF68D2DA05FCB00FE7E14 /* SerenAIV2UITestsLaunchTests.swift */; };
+		042FF69B2DA063EC00FE7E14 /* Colours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042FF69A2DA063EC00FE7E14 /* Colours.swift */; };
+		042FF69E2DA0642600FE7E14 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042FF69D2DA0642600FE7E14 /* Fonts.swift */; };
+		042FF6B42DA0648100FE7E14 /* Inter_18pt-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 042FF6A22DA0648000FE7E14 /* Inter_18pt-BoldItalic.ttf */; };
+		042FF6B52DA0648100FE7E14 /* Inter_18pt-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 042FF6A32DA0648000FE7E14 /* Inter_18pt-ExtraLight.ttf */; };
+		042FF6B62DA0648100FE7E14 /* Inter_18pt-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 042FF6A42DA0648000FE7E14 /* Inter_18pt-Black.ttf */; };
+		042FF6B72DA0648100FE7E14 /* Inter_18pt-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 042FF6A52DA0648000FE7E14 /* Inter_18pt-SemiBoldItalic.ttf */; };
+		042FF6B82DA0648100FE7E14 /* Inter_18pt-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 042FF6A62DA0648000FE7E14 /* Inter_18pt-Medium.ttf */; };
+		042FF6B92DA0648100FE7E14 /* Inter_18pt-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 042FF6A72DA0648000FE7E14 /* Inter_18pt-MediumItalic.ttf */; };
+		042FF6BA2DA0648100FE7E14 /* Inter_18pt-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 042FF6A82DA0648000FE7E14 /* Inter_18pt-ExtraBoldItalic.ttf */; };
+		042FF6BB2DA0648100FE7E14 /* Inter_18pt-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 042FF6A92DA0648000FE7E14 /* Inter_18pt-LightItalic.ttf */; };
+		042FF6BC2DA0648100FE7E14 /* Inter_18pt-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 042FF6AA2DA0648000FE7E14 /* Inter_18pt-SemiBold.ttf */; };
+		042FF6BD2DA0648100FE7E14 /* Inter_18pt-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 042FF6AB2DA0648000FE7E14 /* Inter_18pt-ThinItalic.ttf */; };
+		042FF6BE2DA0648100FE7E14 /* Inter_18pt-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 042FF6AC2DA0648000FE7E14 /* Inter_18pt-Italic.ttf */; };
+		042FF6BF2DA0648100FE7E14 /* Inter_18pt-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 042FF6AD2DA0648000FE7E14 /* Inter_18pt-Light.ttf */; };
+		042FF6C02DA0648100FE7E14 /* Inter_18pt-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 042FF6AE2DA0648000FE7E14 /* Inter_18pt-ExtraLightItalic.ttf */; };
+		042FF6C12DA0648100FE7E14 /* Inter_18pt-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 042FF6AF2DA0648000FE7E14 /* Inter_18pt-ExtraBold.ttf */; };
+		042FF6C22DA0648100FE7E14 /* Inter_18pt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 042FF6B02DA0648000FE7E14 /* Inter_18pt-Bold.ttf */; };
+		042FF6C32DA0648100FE7E14 /* Inter_18pt-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 042FF6B12DA0648000FE7E14 /* Inter_18pt-BlackItalic.ttf */; };
+		042FF6C42DA0648100FE7E14 /* Inter_18pt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 042FF6B22DA0648000FE7E14 /* Inter_18pt-Regular.ttf */; };
+		042FF6C52DA0648100FE7E14 /* Inter_18pt-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 042FF6B32DA0648100FE7E14 /* Inter_18pt-Thin.ttf */; };
+		043D0E1D2DA86C5D00988DF7 /* StartRegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D0E1C2DA86C5D00988DF7 /* StartRegistrationView.swift */; };
+		043D0E1F2DAA8A2E00988DF7 /* SignUpView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D0E1E2DAA8A2E00988DF7 /* SignUpView .swift */; };
+		043D0E212DAA8A3800988DF7 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D0E202DAA8A3800988DF7 /* ForgotPasswordView.swift */; };
+		043D0E232DAA8A6E00988DF7 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D0E222DAA8A6E00988DF7 /* SignInView.swift */; };
+		044E7F7C2DA073B50069F974 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044E7F7B2DA073B50069F974 /* HomePageView.swift */; };
+		044E7F7F2DA0750B0069F974 /* ListenerPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044E7F7E2DA0750B0069F974 /* ListenerPageView.swift */; };
+		045DF5662DBE92140007C143 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DF5652DBE92140007C143 /* Int.swift */; };
+		045DF5692DBE94670007C143 /* SupportPageFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DF5682DBE94660007C143 /* SupportPageFeedView.swift */; };
+		045DF56C2DBF9D490007C143 /* DeepBreathingStartPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DF56B2DBF9D480007C143 /* DeepBreathingStartPage.swift */; };
+		045DF56E2DBF9DCB0007C143 /* SupportPageLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DF56D2DBF9DCB0007C143 /* SupportPageLayout.swift */; };
+		045DF5702DBFBC160007C143 /* DeepBreathingPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DF56F2DBFBC160007C143 /* DeepBreathingPhase.swift */; };
+		045DF5722DBFBC320007C143 /* DeepBreathingReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DF5712DBFBC320007C143 /* DeepBreathingReview.swift */; };
+		045DF5742DBFC6FA0007C143 /* DeepBreathingSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DF5732DBFC6FA0007C143 /* DeepBreathingSummary.swift */; };
+		0461B8682DAC3139007A9E78 /* PaymentPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0461B8672DAC3139007A9E78 /* PaymentPageView.swift */; };
+		046869F12DB26A0200959EAF /* SerenAIPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046869F02DB26A0200959EAF /* SerenAIPageView.swift */; };
+		046869F32DB26A1200959EAF /* SerenAIChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046869F22DB26A1200959EAF /* SerenAIChatView.swift */; };
+		046869F52DB27FB300959EAF /* SerenAIPageLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046869F42DB27FB300959EAF /* SerenAIPageLayout.swift */; };
+		046869F82DB3C5CA00959EAF /* JournalPageLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046869F72DB3C5CA00959EAF /* JournalPageLayout.swift */; };
+		046869FA2DB3C5EB00959EAF /* JournalPageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046869F92DB3C5EB00959EAF /* JournalPageListView.swift */; };
+		046869FC2DB3C5F500959EAF /* JournalPageMoodSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046869FB2DB3C5F500959EAF /* JournalPageMoodSelectionView.swift */; };
+		04686A002DB3C88100959EAF /* JournalPageAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046869FF2DB3C88100959EAF /* JournalPageAppView.swift */; };
+		04686A032DB530A900959EAF /* MoodTrackerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04686A022DB530A900959EAF /* MoodTrackerPage.swift */; };
+		046C5DE52DA6A361007E300A /* PresentationPageLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046C5DE42DA6A361007E300A /* PresentationPageLayout.swift */; };
+		046C5DE72DA6B775007E300A /* JournalPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046C5DE62DA6B775007E300A /* JournalPageView.swift */; };
+		046C5DE92DA6BDA4007E300A /* MoodTrackingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046C5DE82DA6BDA4007E300A /* MoodTrackingPageView.swift */; };
+		046C5DEB2DA6BDB1007E300A /* EmergencyPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046C5DEA2DA6BDB1007E300A /* EmergencyPageView.swift */; };
+		04A466062DB6DAAE00BBAA96 /* SettingsPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A466052DB6DAAE00BBAA96 /* SettingsPlanView.swift */; };
+		04A466082DB6DD0A00BBAA96 /* ReviewPromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A466072DB6DD0A00BBAA96 /* ReviewPromptView.swift */; };
+		04A4660A2DB6DDB300BBAA96 /* SettingsPaymentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A466092DB6DDB300BBAA96 /* SettingsPaymentsView.swift */; };
+		04A4660C2DB6E27400BBAA96 /* PrefferedTheraphyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4660B2DB6E27400BBAA96 /* PrefferedTheraphyView.swift */; };
+		04A4660E2DB6E73D00BBAA96 /* ReportBugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4660D2DB6E73D00BBAA96 /* ReportBugView.swift */; };
+		04A466102DB7A5F000BBAA96 /* LeaveFeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4660F2DB7A5F000BBAA96 /* LeaveFeedbackView.swift */; };
+		04CD0F932DB7EC0000D882B6 /* ContactSupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CD0F922DB7EC0000D882B6 /* ContactSupportView.swift */; };
+		04CD0F952DB7F94400D882B6 /* TheraphistToneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CD0F942DB7F94400D882B6 /* TheraphistToneView.swift */; };
+		04CD0F972DB8006500D882B6 /* FlexibleLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CD0F962DB8006500D882B6 /* FlexibleLayoutView.swift */; };
+		04D2C0DF2DC10149006DF2E3 /* FastMoodReliefEnterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D2C0DE2DC10149006DF2E3 /* FastMoodReliefEnterPage.swift */; };
+		04D2C0E12DC11BE1006DF2E3 /* FastMoodSelectionFeelingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D2C0E02DC11BE1006DF2E3 /* FastMoodSelectionFeelingPage.swift */; };
+		04D2C0E32DC12281006DF2E3 /* FastMoodReliefRecordPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D2C0E22DC12281006DF2E3 /* FastMoodReliefRecordPage.swift */; };
+		04D2C0E52DC20082006DF2E3 /* FastMoodReliefFinalPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D2C0E42DC20082006DF2E3 /* FastMoodReliefFinalPage.swift */; };
+		04D2C0E82DC21671006DF2E3 /* SensorySupportPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D2C0E72DC21671006DF2E3 /* SensorySupportPageView.swift */; };
+		04F510762DB6B82B003E4CAD /* SettingsPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F510752DB6B82B003E4CAD /* SettingsPageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		042FF67E2DA05FCB00FE7E14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 042FF6642DA05FC700FE7E14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 042FF66B2DA05FC800FE7E14;
+			remoteInfo = SerenAIV2;
+		};
+		042FF6882DA05FCB00FE7E14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 042FF6642DA05FC700FE7E14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 042FF66B2DA05FC800FE7E14;
+			remoteInfo = SerenAIV2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04067F9C2DDB7921001E20D3 /* Colours.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colours.swift; sourceTree = "<group>"; };
+		04067F9D2DDB7921001E20D3 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		040CD6642DB05153008908B9 /* EntryFeedPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryFeedPageView.swift; sourceTree = "<group>"; };
+		040CD6662DB0515E008908B9 /* FeedPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPageView.swift; sourceTree = "<group>"; };
+		042FF66C2DA05FC800FE7E14 /* SerenAIV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SerenAIV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		042FF66F2DA05FC800FE7E14 /* SerenAIV2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerenAIV2App.swift; sourceTree = "<group>"; };
+		042FF6712DA05FC800FE7E14 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		042FF6732DA05FCB00FE7E14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		042FF6752DA05FCB00FE7E14 /* SerenAIV2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SerenAIV2.entitlements; sourceTree = "<group>"; };
+		042FF6772DA05FCB00FE7E14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		042FF67D2DA05FCB00FE7E14 /* SerenAIV2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SerenAIV2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		042FF6812DA05FCB00FE7E14 /* SerenAIV2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerenAIV2Tests.swift; sourceTree = "<group>"; };
+		042FF6872DA05FCB00FE7E14 /* SerenAIV2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SerenAIV2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		042FF68B2DA05FCB00FE7E14 /* SerenAIV2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerenAIV2UITests.swift; sourceTree = "<group>"; };
+		042FF68D2DA05FCB00FE7E14 /* SerenAIV2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerenAIV2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		042FF69A2DA063EC00FE7E14 /* Colours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colours.swift; sourceTree = "<group>"; };
+		042FF69D2DA0642600FE7E14 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		042FF6A22DA0648000FE7E14 /* Inter_18pt-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter_18pt-BoldItalic.ttf"; sourceTree = "<group>"; };
+		042FF6A32DA0648000FE7E14 /* Inter_18pt-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter_18pt-ExtraLight.ttf"; sourceTree = "<group>"; };
+		042FF6A42DA0648000FE7E14 /* Inter_18pt-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter_18pt-Black.ttf"; sourceTree = "<group>"; };
+		042FF6A52DA0648000FE7E14 /* Inter_18pt-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter_18pt-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		042FF6A62DA0648000FE7E14 /* Inter_18pt-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter_18pt-Medium.ttf"; sourceTree = "<group>"; };
+		042FF6A72DA0648000FE7E14 /* Inter_18pt-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter_18pt-MediumItalic.ttf"; sourceTree = "<group>"; };
+		042FF6A82DA0648000FE7E14 /* Inter_18pt-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter_18pt-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		042FF6A92DA0648000FE7E14 /* Inter_18pt-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter_18pt-LightItalic.ttf"; sourceTree = "<group>"; };
+		042FF6AA2DA0648000FE7E14 /* Inter_18pt-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter_18pt-SemiBold.ttf"; sourceTree = "<group>"; };
+		042FF6AB2DA0648000FE7E14 /* Inter_18pt-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter_18pt-ThinItalic.ttf"; sourceTree = "<group>"; };
+		042FF6AC2DA0648000FE7E14 /* Inter_18pt-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter_18pt-Italic.ttf"; sourceTree = "<group>"; };
+		042FF6AD2DA0648000FE7E14 /* Inter_18pt-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter_18pt-Light.ttf"; sourceTree = "<group>"; };
+		042FF6AE2DA0648000FE7E14 /* Inter_18pt-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter_18pt-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		042FF6AF2DA0648000FE7E14 /* Inter_18pt-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter_18pt-ExtraBold.ttf"; sourceTree = "<group>"; };
+		042FF6B02DA0648000FE7E14 /* Inter_18pt-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter_18pt-Bold.ttf"; sourceTree = "<group>"; };
+		042FF6B12DA0648000FE7E14 /* Inter_18pt-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter_18pt-BlackItalic.ttf"; sourceTree = "<group>"; };
+		042FF6B22DA0648000FE7E14 /* Inter_18pt-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter_18pt-Regular.ttf"; sourceTree = "<group>"; };
+		042FF6B32DA0648100FE7E14 /* Inter_18pt-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter_18pt-Thin.ttf"; sourceTree = "<group>"; };
+		043D0E1C2DA86C5D00988DF7 /* StartRegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartRegistrationView.swift; sourceTree = "<group>"; };
+		043D0E1E2DAA8A2E00988DF7 /* SignUpView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignUpView .swift"; sourceTree = "<group>"; };
+		043D0E202DAA8A3800988DF7 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		043D0E222DAA8A6E00988DF7 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		044E7F792DA065F10069F974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		044E7F7B2DA073B50069F974 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		044E7F7E2DA0750B0069F974 /* ListenerPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenerPageView.swift; sourceTree = "<group>"; };
+		045DF5652DBE92140007C143 /* Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
+		045DF5682DBE94660007C143 /* SupportPageFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportPageFeedView.swift; sourceTree = "<group>"; };
+		045DF56B2DBF9D480007C143 /* DeepBreathingStartPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepBreathingStartPage.swift; sourceTree = "<group>"; };
+		045DF56D2DBF9DCB0007C143 /* SupportPageLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportPageLayout.swift; sourceTree = "<group>"; };
+		045DF56F2DBFBC160007C143 /* DeepBreathingPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepBreathingPhase.swift; sourceTree = "<group>"; };
+		045DF5712DBFBC320007C143 /* DeepBreathingReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepBreathingReview.swift; sourceTree = "<group>"; };
+		045DF5732DBFC6FA0007C143 /* DeepBreathingSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepBreathingSummary.swift; sourceTree = "<group>"; };
+		0461B8672DAC3139007A9E78 /* PaymentPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentPageView.swift; sourceTree = "<group>"; };
+		046869F02DB26A0200959EAF /* SerenAIPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerenAIPageView.swift; sourceTree = "<group>"; };
+		046869F22DB26A1200959EAF /* SerenAIChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerenAIChatView.swift; sourceTree = "<group>"; };
+		046869F42DB27FB300959EAF /* SerenAIPageLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerenAIPageLayout.swift; sourceTree = "<group>"; };
+		046869F72DB3C5CA00959EAF /* JournalPageLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalPageLayout.swift; sourceTree = "<group>"; };
+		046869F92DB3C5EB00959EAF /* JournalPageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalPageListView.swift; sourceTree = "<group>"; };
+		046869FB2DB3C5F500959EAF /* JournalPageMoodSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalPageMoodSelectionView.swift; sourceTree = "<group>"; };
+		046869FF2DB3C88100959EAF /* JournalPageAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalPageAppView.swift; sourceTree = "<group>"; };
+		04686A022DB530A900959EAF /* MoodTrackerPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodTrackerPage.swift; sourceTree = "<group>"; };
+		046C5DE42DA6A361007E300A /* PresentationPageLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationPageLayout.swift; sourceTree = "<group>"; };
+		046C5DE62DA6B775007E300A /* JournalPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalPageView.swift; sourceTree = "<group>"; };
+		046C5DE82DA6BDA4007E300A /* MoodTrackingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodTrackingPageView.swift; sourceTree = "<group>"; };
+		046C5DEA2DA6BDB1007E300A /* EmergencyPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyPageView.swift; sourceTree = "<group>"; };
+		04A466052DB6DAAE00BBAA96 /* SettingsPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPlanView.swift; sourceTree = "<group>"; };
+		04A466072DB6DD0A00BBAA96 /* ReviewPromptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewPromptView.swift; sourceTree = "<group>"; };
+		04A466092DB6DDB300BBAA96 /* SettingsPaymentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPaymentsView.swift; sourceTree = "<group>"; };
+		04A4660B2DB6E27400BBAA96 /* PrefferedTheraphyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefferedTheraphyView.swift; sourceTree = "<group>"; };
+		04A4660D2DB6E73D00BBAA96 /* ReportBugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportBugView.swift; sourceTree = "<group>"; };
+		04A4660F2DB7A5F000BBAA96 /* LeaveFeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveFeedbackView.swift; sourceTree = "<group>"; };
+		04CD0F922DB7EC0000D882B6 /* ContactSupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactSupportView.swift; sourceTree = "<group>"; };
+		04CD0F942DB7F94400D882B6 /* TheraphistToneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheraphistToneView.swift; sourceTree = "<group>"; };
+		04CD0F962DB8006500D882B6 /* FlexibleLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexibleLayoutView.swift; sourceTree = "<group>"; };
+		04D2C0DE2DC10149006DF2E3 /* FastMoodReliefEnterPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastMoodReliefEnterPage.swift; sourceTree = "<group>"; };
+		04D2C0E02DC11BE1006DF2E3 /* FastMoodSelectionFeelingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastMoodSelectionFeelingPage.swift; sourceTree = "<group>"; };
+		04D2C0E22DC12281006DF2E3 /* FastMoodReliefRecordPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastMoodReliefRecordPage.swift; sourceTree = "<group>"; };
+		04D2C0E42DC20082006DF2E3 /* FastMoodReliefFinalPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastMoodReliefFinalPage.swift; sourceTree = "<group>"; };
+		04D2C0E72DC21671006DF2E3 /* SensorySupportPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorySupportPageView.swift; sourceTree = "<group>"; };
+		04F510752DB6B82B003E4CAD /* SettingsPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		042FF6692DA05FC800FE7E14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042FF67A2DA05FCB00FE7E14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042FF6842DA05FCB00FE7E14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040CD6622DB05044008908B9 /* FeedPage */ = {
+			isa = PBXGroup;
+			children = (
+				040CD6642DB05153008908B9 /* EntryFeedPageView.swift */,
+				040CD6662DB0515E008908B9 /* FeedPageView.swift */,
+			);
+			path = FeedPage;
+			sourceTree = "<group>";
+		};
+		040CD6632DB05054008908B9 /* SonarisChat */ = {
+			isa = PBXGroup;
+			children = (
+				046869F02DB26A0200959EAF /* SerenAIPageView.swift */,
+				046869F22DB26A1200959EAF /* SerenAIChatView.swift */,
+				046869F42DB27FB300959EAF /* SerenAIPageLayout.swift */,
+			);
+			path = SonarisChat;
+			sourceTree = "<group>";
+		};
+		042FF6632DA05FC700FE7E14 = {
+			isa = PBXGroup;
+			children = (
+				042FF66E2DA05FC800FE7E14 /* SerenAIV2 */,
+				042FF6802DA05FCB00FE7E14 /* SerenAIV2Tests */,
+				042FF68A2DA05FCB00FE7E14 /* SerenAIV2UITests */,
+				042FF66D2DA05FC800FE7E14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		042FF66D2DA05FC800FE7E14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				042FF66C2DA05FC800FE7E14 /* SerenAIV2.app */,
+				042FF67D2DA05FCB00FE7E14 /* SerenAIV2Tests.xctest */,
+				042FF6872DA05FCB00FE7E14 /* SerenAIV2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		042FF66E2DA05FC800FE7E14 /* SerenAIV2 */ = {
+			isa = PBXGroup;
+			children = (
+				042FF6732DA05FCB00FE7E14 /* Assets.xcassets */,
+				042FF6752DA05FCB00FE7E14 /* SerenAIV2.entitlements */,
+				042FF6762DA05FCB00FE7E14 /* Preview Content */,
+				044E7F792DA065F10069F974 /* Info.plist */,
+				045DF5672DBE94440007C143 /* SupportPage */,
+				04F510732DB6B804003E4CAD /* SettingsPage */,
+				04686A012DB5309300959EAF /* MoodTracker */,
+				046869F62DB3C5B700959EAF /* JournalPage */,
+				040CD6632DB05054008908B9 /* SonarisChat */,
+				040CD6622DB05044008908B9 /* FeedPage */,
+				0461B8662DAC30E7007A9E78 /* PaymentPage */,
+				043D0E1B2DA86C3900988DF7 /* RegisterPages */,
+				044E7F7D2DA074CB0069F974 /* PresentationPages */,
+				044E7F7A2DA073960069F974 /* HomePage */,
+				042FF69F2DA0643D00FE7E14 /* Fonts */,
+				042FF69C2DA0640100FE7E14 /* Utilities */,
+				042FF66F2DA05FC800FE7E14 /* SerenAIV2App.swift */,
+				042FF6712DA05FC800FE7E14 /* ContentView.swift */,
+			);
+			path = SerenAIV2;
+			sourceTree = "<group>";
+		};
+		042FF6762DA05FCB00FE7E14 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				042FF6772DA05FCB00FE7E14 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		042FF6802DA05FCB00FE7E14 /* SerenAIV2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				042FF6812DA05FCB00FE7E14 /* SerenAIV2Tests.swift */,
+			);
+			path = SerenAIV2Tests;
+			sourceTree = "<group>";
+		};
+		042FF68A2DA05FCB00FE7E14 /* SerenAIV2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				042FF68B2DA05FCB00FE7E14 /* SerenAIV2UITests.swift */,
+				042FF68D2DA05FCB00FE7E14 /* SerenAIV2UITestsLaunchTests.swift */,
+			);
+			path = SerenAIV2UITests;
+			sourceTree = "<group>";
+		};
+		042FF69C2DA0640100FE7E14 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				042FF69A2DA063EC00FE7E14 /* Colours.swift */,
+				042FF69D2DA0642600FE7E14 /* Fonts.swift */,
+				04067F9C2DDB7921001E20D3 /* Colours.swift */,
+				04067F9D2DDB7921001E20D3 /* Fonts.swift */,
+				045DF5652DBE92140007C143 /* Int.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		042FF69F2DA0643D00FE7E14 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				042FF6A42DA0648000FE7E14 /* Inter_18pt-Black.ttf */,
+				042FF6B12DA0648000FE7E14 /* Inter_18pt-BlackItalic.ttf */,
+				042FF6B02DA0648000FE7E14 /* Inter_18pt-Bold.ttf */,
+				042FF6A22DA0648000FE7E14 /* Inter_18pt-BoldItalic.ttf */,
+				042FF6AF2DA0648000FE7E14 /* Inter_18pt-ExtraBold.ttf */,
+				042FF6A82DA0648000FE7E14 /* Inter_18pt-ExtraBoldItalic.ttf */,
+				042FF6A32DA0648000FE7E14 /* Inter_18pt-ExtraLight.ttf */,
+				042FF6AE2DA0648000FE7E14 /* Inter_18pt-ExtraLightItalic.ttf */,
+				042FF6AC2DA0648000FE7E14 /* Inter_18pt-Italic.ttf */,
+				042FF6AD2DA0648000FE7E14 /* Inter_18pt-Light.ttf */,
+				042FF6A92DA0648000FE7E14 /* Inter_18pt-LightItalic.ttf */,
+				042FF6A62DA0648000FE7E14 /* Inter_18pt-Medium.ttf */,
+				042FF6A72DA0648000FE7E14 /* Inter_18pt-MediumItalic.ttf */,
+				042FF6B22DA0648000FE7E14 /* Inter_18pt-Regular.ttf */,
+				042FF6AA2DA0648000FE7E14 /* Inter_18pt-SemiBold.ttf */,
+				042FF6A52DA0648000FE7E14 /* Inter_18pt-SemiBoldItalic.ttf */,
+				042FF6B32DA0648100FE7E14 /* Inter_18pt-Thin.ttf */,
+				042FF6AB2DA0648000FE7E14 /* Inter_18pt-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		043D0E1B2DA86C3900988DF7 /* RegisterPages */ = {
+			isa = PBXGroup;
+			children = (
+				043D0E1C2DA86C5D00988DF7 /* StartRegistrationView.swift */,
+				043D0E1E2DAA8A2E00988DF7 /* SignUpView .swift */,
+				043D0E202DAA8A3800988DF7 /* ForgotPasswordView.swift */,
+				043D0E222DAA8A6E00988DF7 /* SignInView.swift */,
+			);
+			path = RegisterPages;
+			sourceTree = "<group>";
+		};
+		044E7F7A2DA073960069F974 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				044E7F7B2DA073B50069F974 /* HomePageView.swift */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		044E7F7D2DA074CB0069F974 /* PresentationPages */ = {
+			isa = PBXGroup;
+			children = (
+				046C5DE42DA6A361007E300A /* PresentationPageLayout.swift */,
+				044E7F7E2DA0750B0069F974 /* ListenerPageView.swift */,
+				046C5DE62DA6B775007E300A /* JournalPageView.swift */,
+				046C5DE82DA6BDA4007E300A /* MoodTrackingPageView.swift */,
+				046C5DEA2DA6BDB1007E300A /* EmergencyPageView.swift */,
+			);
+			path = PresentationPages;
+			sourceTree = "<group>";
+		};
+		045DF5672DBE94440007C143 /* SupportPage */ = {
+			isa = PBXGroup;
+			children = (
+				045DF56D2DBF9DCB0007C143 /* SupportPageLayout.swift */,
+				045DF5682DBE94660007C143 /* SupportPageFeedView.swift */,
+				04D2C0E62DC21657006DF2E3 /* SensorySupportPage */,
+				04D2C0DC2DC10118006DF2E3 /* EmergencyLinePage */,
+				04D2C0DB2DC1010B006DF2E3 /* FastMoodReliefPage */,
+				045DF56A2DBF9CC80007C143 /* DeepBreathingPage */,
+			);
+			path = SupportPage;
+			sourceTree = "<group>";
+		};
+		045DF56A2DBF9CC80007C143 /* DeepBreathingPage */ = {
+			isa = PBXGroup;
+			children = (
+				045DF56B2DBF9D480007C143 /* DeepBreathingStartPage.swift */,
+				045DF56F2DBFBC160007C143 /* DeepBreathingPhase.swift */,
+				045DF5712DBFBC320007C143 /* DeepBreathingReview.swift */,
+				045DF5732DBFC6FA0007C143 /* DeepBreathingSummary.swift */,
+			);
+			path = DeepBreathingPage;
+			sourceTree = "<group>";
+		};
+		0461B8662DAC30E7007A9E78 /* PaymentPage */ = {
+			isa = PBXGroup;
+			children = (
+				0461B8672DAC3139007A9E78 /* PaymentPageView.swift */,
+			);
+			path = PaymentPage;
+			sourceTree = "<group>";
+		};
+		046869F62DB3C5B700959EAF /* JournalPage */ = {
+			isa = PBXGroup;
+			children = (
+				046869F72DB3C5CA00959EAF /* JournalPageLayout.swift */,
+				046869F92DB3C5EB00959EAF /* JournalPageListView.swift */,
+				046869FB2DB3C5F500959EAF /* JournalPageMoodSelectionView.swift */,
+				046869FF2DB3C88100959EAF /* JournalPageAppView.swift */,
+			);
+			path = JournalPage;
+			sourceTree = "<group>";
+		};
+		04686A012DB5309300959EAF /* MoodTracker */ = {
+			isa = PBXGroup;
+			children = (
+				04686A022DB530A900959EAF /* MoodTrackerPage.swift */,
+			);
+			path = MoodTracker;
+			sourceTree = "<group>";
+		};
+		04D2C0DB2DC1010B006DF2E3 /* FastMoodReliefPage */ = {
+			isa = PBXGroup;
+			children = (
+				04D2C0DE2DC10149006DF2E3 /* FastMoodReliefEnterPage.swift */,
+				04D2C0E02DC11BE1006DF2E3 /* FastMoodSelectionFeelingPage.swift */,
+				04D2C0E22DC12281006DF2E3 /* FastMoodReliefRecordPage.swift */,
+				04D2C0E42DC20082006DF2E3 /* FastMoodReliefFinalPage.swift */,
+			);
+			path = FastMoodReliefPage;
+			sourceTree = "<group>";
+		};
+		04D2C0DC2DC10118006DF2E3 /* EmergencyLinePage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EmergencyLinePage;
+			sourceTree = "<group>";
+		};
+		04D2C0E62DC21657006DF2E3 /* SensorySupportPage */ = {
+			isa = PBXGroup;
+			children = (
+				04D2C0E72DC21671006DF2E3 /* SensorySupportPageView.swift */,
+			);
+			path = SensorySupportPage;
+			sourceTree = "<group>";
+		};
+		04F510732DB6B804003E4CAD /* SettingsPage */ = {
+			isa = PBXGroup;
+			children = (
+				04F510752DB6B82B003E4CAD /* SettingsPageView.swift */,
+				04A466052DB6DAAE00BBAA96 /* SettingsPlanView.swift */,
+				04A466072DB6DD0A00BBAA96 /* ReviewPromptView.swift */,
+				04A466092DB6DDB300BBAA96 /* SettingsPaymentsView.swift */,
+				04A4660D2DB6E73D00BBAA96 /* ReportBugView.swift */,
+				04A4660F2DB7A5F000BBAA96 /* LeaveFeedbackView.swift */,
+				04CD0F922DB7EC0000D882B6 /* ContactSupportView.swift */,
+				04A4660B2DB6E27400BBAA96 /* PrefferedTheraphyView.swift */,
+				04CD0F942DB7F94400D882B6 /* TheraphistToneView.swift */,
+				04CD0F962DB8006500D882B6 /* FlexibleLayoutView.swift */,
+			);
+			path = SettingsPage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		042FF66B2DA05FC800FE7E14 /* SerenAIV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042FF6912DA05FCB00FE7E14 /* Build configuration list for PBXNativeTarget "SerenAIV2" */;
+			buildPhases = (
+				042FF6682DA05FC800FE7E14 /* Sources */,
+				042FF6692DA05FC800FE7E14 /* Frameworks */,
+				042FF66A2DA05FC800FE7E14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SerenAIV2;
+			productName = SerenAIV2;
+			productReference = 042FF66C2DA05FC800FE7E14 /* SerenAIV2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		042FF67C2DA05FCB00FE7E14 /* SerenAIV2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042FF6942DA05FCB00FE7E14 /* Build configuration list for PBXNativeTarget "SerenAIV2Tests" */;
+			buildPhases = (
+				042FF6792DA05FCB00FE7E14 /* Sources */,
+				042FF67A2DA05FCB00FE7E14 /* Frameworks */,
+				042FF67B2DA05FCB00FE7E14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				042FF67F2DA05FCB00FE7E14 /* PBXTargetDependency */,
+			);
+			name = SerenAIV2Tests;
+			productName = SerenAIV2Tests;
+			productReference = 042FF67D2DA05FCB00FE7E14 /* SerenAIV2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		042FF6862DA05FCB00FE7E14 /* SerenAIV2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042FF6972DA05FCB00FE7E14 /* Build configuration list for PBXNativeTarget "SerenAIV2UITests" */;
+			buildPhases = (
+				042FF6832DA05FCB00FE7E14 /* Sources */,
+				042FF6842DA05FCB00FE7E14 /* Frameworks */,
+				042FF6852DA05FCB00FE7E14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				042FF6892DA05FCB00FE7E14 /* PBXTargetDependency */,
+			);
+			name = SerenAIV2UITests;
+			productName = SerenAIV2UITests;
+			productReference = 042FF6872DA05FCB00FE7E14 /* SerenAIV2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		042FF6642DA05FC700FE7E14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					042FF66B2DA05FC800FE7E14 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					042FF67C2DA05FCB00FE7E14 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 042FF66B2DA05FC800FE7E14;
+					};
+					042FF6862DA05FCB00FE7E14 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 042FF66B2DA05FC800FE7E14;
+					};
+				};
+			};
+			buildConfigurationList = 042FF6672DA05FC700FE7E14 /* Build configuration list for PBXProject "SerenAIV2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 042FF6632DA05FC700FE7E14;
+			productRefGroup = 042FF66D2DA05FC800FE7E14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				042FF66B2DA05FC800FE7E14 /* SerenAIV2 */,
+				042FF67C2DA05FCB00FE7E14 /* SerenAIV2Tests */,
+				042FF6862DA05FCB00FE7E14 /* SerenAIV2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		042FF66A2DA05FC800FE7E14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042FF6B82DA0648100FE7E14 /* Inter_18pt-Medium.ttf in Resources */,
+				042FF6BD2DA0648100FE7E14 /* Inter_18pt-ThinItalic.ttf in Resources */,
+				042FF6C32DA0648100FE7E14 /* Inter_18pt-BlackItalic.ttf in Resources */,
+				042FF6B92DA0648100FE7E14 /* Inter_18pt-MediumItalic.ttf in Resources */,
+				042FF6B52DA0648100FE7E14 /* Inter_18pt-ExtraLight.ttf in Resources */,
+				042FF6C12DA0648100FE7E14 /* Inter_18pt-ExtraBold.ttf in Resources */,
+				042FF6B72DA0648100FE7E14 /* Inter_18pt-SemiBoldItalic.ttf in Resources */,
+				042FF6782DA05FCB00FE7E14 /* Preview Assets.xcassets in Resources */,
+				042FF6C42DA0648100FE7E14 /* Inter_18pt-Regular.ttf in Resources */,
+				042FF6BB2DA0648100FE7E14 /* Inter_18pt-LightItalic.ttf in Resources */,
+				042FF6C22DA0648100FE7E14 /* Inter_18pt-Bold.ttf in Resources */,
+				042FF6B62DA0648100FE7E14 /* Inter_18pt-Black.ttf in Resources */,
+				042FF6BC2DA0648100FE7E14 /* Inter_18pt-SemiBold.ttf in Resources */,
+				042FF6C52DA0648100FE7E14 /* Inter_18pt-Thin.ttf in Resources */,
+				042FF6C02DA0648100FE7E14 /* Inter_18pt-ExtraLightItalic.ttf in Resources */,
+				042FF6BF2DA0648100FE7E14 /* Inter_18pt-Light.ttf in Resources */,
+				042FF6BA2DA0648100FE7E14 /* Inter_18pt-ExtraBoldItalic.ttf in Resources */,
+				042FF6742DA05FCB00FE7E14 /* Assets.xcassets in Resources */,
+				042FF6BE2DA0648100FE7E14 /* Inter_18pt-Italic.ttf in Resources */,
+				042FF6B42DA0648100FE7E14 /* Inter_18pt-BoldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042FF67B2DA05FCB00FE7E14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042FF6852DA05FCB00FE7E14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		042FF6682DA05FC800FE7E14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040CD6672DB0515E008908B9 /* FeedPageView.swift in Sources */,
+				046869FC2DB3C5F500959EAF /* JournalPageMoodSelectionView.swift in Sources */,
+				040CD6652DB05153008908B9 /* EntryFeedPageView.swift in Sources */,
+				0461B8682DAC3139007A9E78 /* PaymentPageView.swift in Sources */,
+				04CD0F932DB7EC0000D882B6 /* ContactSupportView.swift in Sources */,
+				046869F82DB3C5CA00959EAF /* JournalPageLayout.swift in Sources */,
+				042FF69E2DA0642600FE7E14 /* Fonts.swift in Sources */,
+				046869F52DB27FB300959EAF /* SerenAIPageLayout.swift in Sources */,
+				04CD0F952DB7F94400D882B6 /* TheraphistToneView.swift in Sources */,
+				045DF5702DBFBC160007C143 /* DeepBreathingPhase.swift in Sources */,
+				04A466062DB6DAAE00BBAA96 /* SettingsPlanView.swift in Sources */,
+				043D0E1D2DA86C5D00988DF7 /* StartRegistrationView.swift in Sources */,
+				046869F12DB26A0200959EAF /* SerenAIPageView.swift in Sources */,
+				046C5DE52DA6A361007E300A /* PresentationPageLayout.swift in Sources */,
+				042FF6722DA05FC800FE7E14 /* ContentView.swift in Sources */,
+				045DF5742DBFC6FA0007C143 /* DeepBreathingSummary.swift in Sources */,
+				04686A032DB530A900959EAF /* MoodTrackerPage.swift in Sources */,
+				045DF5662DBE92140007C143 /* Int.swift in Sources */,
+				045DF56E2DBF9DCB0007C143 /* SupportPageLayout.swift in Sources */,
+				045DF5722DBFBC320007C143 /* DeepBreathingReview.swift in Sources */,
+				04A4660E2DB6E73D00BBAA96 /* ReportBugView.swift in Sources */,
+				046C5DEB2DA6BDB1007E300A /* EmergencyPageView.swift in Sources */,
+				045DF5692DBE94670007C143 /* SupportPageFeedView.swift in Sources */,
+				046C5DE72DA6B775007E300A /* JournalPageView.swift in Sources */,
+				04A4660C2DB6E27400BBAA96 /* PrefferedTheraphyView.swift in Sources */,
+				04F510762DB6B82B003E4CAD /* SettingsPageView.swift in Sources */,
+				04CD0F972DB8006500D882B6 /* FlexibleLayoutView.swift in Sources */,
+				046C5DE92DA6BDA4007E300A /* MoodTrackingPageView.swift in Sources */,
+				04067F9F2DDB7921001E20D3 /* Fonts.swift in Sources */,
+				042FF69B2DA063EC00FE7E14 /* Colours.swift in Sources */,
+				04686A002DB3C88100959EAF /* JournalPageAppView.swift in Sources */,
+				04D2C0E82DC21671006DF2E3 /* SensorySupportPageView.swift in Sources */,
+				04067F9E2DDB7921001E20D3 /* Colours.swift in Sources */,
+				043D0E232DAA8A6E00988DF7 /* SignInView.swift in Sources */,
+				04D2C0E32DC12281006DF2E3 /* FastMoodReliefRecordPage.swift in Sources */,
+				04D2C0DF2DC10149006DF2E3 /* FastMoodReliefEnterPage.swift in Sources */,
+				04A4660A2DB6DDB300BBAA96 /* SettingsPaymentsView.swift in Sources */,
+				04A466082DB6DD0A00BBAA96 /* ReviewPromptView.swift in Sources */,
+				043D0E212DAA8A3800988DF7 /* ForgotPasswordView.swift in Sources */,
+				042FF6702DA05FC800FE7E14 /* SerenAIV2App.swift in Sources */,
+				046869F32DB26A1200959EAF /* SerenAIChatView.swift in Sources */,
+				045DF56C2DBF9D490007C143 /* DeepBreathingStartPage.swift in Sources */,
+				04D2C0E52DC20082006DF2E3 /* FastMoodReliefFinalPage.swift in Sources */,
+				043D0E1F2DAA8A2E00988DF7 /* SignUpView .swift in Sources */,
+				04D2C0E12DC11BE1006DF2E3 /* FastMoodSelectionFeelingPage.swift in Sources */,
+				044E7F7C2DA073B50069F974 /* HomePageView.swift in Sources */,
+				044E7F7F2DA0750B0069F974 /* ListenerPageView.swift in Sources */,
+				046869FA2DB3C5EB00959EAF /* JournalPageListView.swift in Sources */,
+				04A466102DB7A5F000BBAA96 /* LeaveFeedbackView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042FF6792DA05FCB00FE7E14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042FF6822DA05FCB00FE7E14 /* SerenAIV2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042FF6832DA05FCB00FE7E14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042FF68E2DA05FCB00FE7E14 /* SerenAIV2UITestsLaunchTests.swift in Sources */,
+				042FF68C2DA05FCB00FE7E14 /* SerenAIV2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		042FF67F2DA05FCB00FE7E14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 042FF66B2DA05FC800FE7E14 /* SerenAIV2 */;
+			targetProxy = 042FF67E2DA05FCB00FE7E14 /* PBXContainerItemProxy */;
+		};
+		042FF6892DA05FCB00FE7E14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 042FF66B2DA05FC800FE7E14 /* SerenAIV2 */;
+			targetProxy = 042FF6882DA05FCB00FE7E14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		042FF68F2DA05FCB00FE7E14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		042FF6902DA05FCB00FE7E14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		042FF6922DA05FCB00FE7E14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SerenAIV2/SerenAIV2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SerenAIV2/Preview Content\"";
+				DEVELOPMENT_TEAM = LG8NKJG3CY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SerenAIV2/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Seren.SerenAIV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		042FF6932DA05FCB00FE7E14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SerenAIV2/SerenAIV2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SerenAIV2/Preview Content\"";
+				DEVELOPMENT_TEAM = LG8NKJG3CY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SerenAIV2/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Seren.SerenAIV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		042FF6952DA05FCB00FE7E14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LG8NKJG3CY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Seren.SerenAIV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SerenAIV2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SerenAIV2";
+			};
+			name = Debug;
+		};
+		042FF6962DA05FCB00FE7E14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LG8NKJG3CY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Seren.SerenAIV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SerenAIV2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SerenAIV2";
+			};
+			name = Release;
+		};
+		042FF6982DA05FCB00FE7E14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LG8NKJG3CY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Seren.SerenAIV2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SerenAIV2;
+			};
+			name = Debug;
+		};
+		042FF6992DA05FCB00FE7E14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LG8NKJG3CY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Seren.SerenAIV2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SerenAIV2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		042FF6672DA05FC700FE7E14 /* Build configuration list for PBXProject "SerenAIV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042FF68F2DA05FCB00FE7E14 /* Debug */,
+				042FF6902DA05FCB00FE7E14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042FF6912DA05FCB00FE7E14 /* Build configuration list for PBXNativeTarget "SerenAIV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042FF6922DA05FCB00FE7E14 /* Debug */,
+				042FF6932DA05FCB00FE7E14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042FF6942DA05FCB00FE7E14 /* Build configuration list for PBXNativeTarget "SerenAIV2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042FF6952DA05FCB00FE7E14 /* Debug */,
+				042FF6962DA05FCB00FE7E14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042FF6972DA05FCB00FE7E14 /* Build configuration list for PBXNativeTarget "SerenAIV2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042FF6982DA05FCB00FE7E14 /* Debug */,
+				042FF6992DA05FCB00FE7E14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 042FF6642DA05FC700FE7E14 /* Project object */;
+}
